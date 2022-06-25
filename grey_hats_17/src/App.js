@@ -6,6 +6,8 @@ import Login from './Components/Login';
 import Pricing from './Components/Pricing';
 import CheckOut from './Components/CheckOut';
 import {BrowserRouter as Router, Route , Switch} from 'react-router-dom';
+import Testimonial from './Components/Testimonial';
+import ViewAll from './Components/ViewAll';
 function App() {
   return (
   <Router>
@@ -16,12 +18,16 @@ function App() {
     <Center/>
     <Card />
     <Pricing />
+    <Testimonial />
       </Route>
       <Route path="/login">
         <Login/>
       </Route>
       <Route path="/checkout">
         <CheckOut/>
+      </Route>
+       <Route path="/viewall">
+        <ViewAll/>
       </Route>
     </Switch>
   </Router>

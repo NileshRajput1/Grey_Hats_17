@@ -77,8 +77,6 @@ function CheckOut() {
     </div>
   </div>
 </section>
-
-
 );
   }
   
