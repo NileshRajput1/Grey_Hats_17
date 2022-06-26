@@ -2,7 +2,6 @@ import image1 from"../assests/image9.jpg";
 import image2 from"../assests/image5.jpg";
 import image3 from"../assests/image8.jpg";
 import image4 from"../assests/image2.jpg";
-
 import image5 from"../assests/image10.jpg";
 import image6 from"../assests/image13.jpg";
 import image7 from"../assests/image1.jpg";
@@ -17,7 +16,9 @@ function Pricing() {
     <div class="flex flex-wrap -m-4">
       <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a class="block relative h-48 rounded overflow-hidden">
+        <Link to="/checkout">
           <img alt="ecommerce" class="object-cover object-center w-full h-full block" src={image1}></img>
+        </Link>
         </a>
         <div class="mt-4">
           <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">BRASS</h3>
