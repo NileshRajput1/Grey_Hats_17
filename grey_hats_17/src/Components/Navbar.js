@@ -1,3 +1,4 @@
+import logo from"../assests/logo.png";
 import {
   Link
 } from "react-router-dom";
@@ -6,7 +7,7 @@ function Navbar() {
       <header class="text-white-600 body-font">
       <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-        <img style={{width:"55px",height:"55px"}} ></img>
+        <img style={{width:"55px",height:"55px"}} src= {logo}></img>
           <span class="ml-3 text-xl">Ecom</span>
         </a>
         <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">

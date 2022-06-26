@@ -1,5 +1,7 @@
 
-
+import image1 from"../assests/image3.jpg";
+import image2 from"../assests/image6.jpg";
+import image3 from"../assests/image7.jpg";
 function Card() {
     return (
 
@@ -8,11 +10,11 @@ function Card() {
     <div class="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://image.shutterstock.com/image-photo/craft-sign-various-art-supplies-260nw-1648769173.jpg" alt="blog"></img>
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src={image1} alt="blog"></img>
           <div class="p-6">
             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-            <p class="leading-relaxed mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Pottery in Antiquity</h1>
+            <p class="leading-relaxed mb-3">In the field of Terracotta crafts, India constitutes a crowd of skilled artisans with a lineage of expertise. The models vary from huge pots used as cooking apparatus or large storage containers to human and animal figurines used for decoration purposes. </p>
             <div class="flex items-center flex-wrap ">
               <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -37,11 +39,11 @@ function Card() {
       </div>
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://image.shutterstock.com/image-photo/craft-sign-various-art-supplies-260nw-1648769173.jpg" alt="blog"></img>
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src={image2} alt="blog"></img>
           <div class="p-6">
             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
-            <p class="leading-relaxed mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Fiber of the Future- Jute Handicrafts</h1>
+            <p class="leading-relaxed mb-3">It is known as the “Golden fiber” because of its shiny appearance and somewhat golden color. Jute is a strong and durable natural fiber. It is 100% biodegradable and recyclable.</p>
             <div class="flex items-center flex-wrap">
               <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -66,11 +68,11 @@ function Card() {
       </div>
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://image.shutterstock.com/image-photo/craft-sign-various-art-supplies-260nw-1648769173.jpg" alt="blog"></img>
+          <img class="lg:h-48 md:h-36 w-full object-cover object-center" src={image3}alt="blog"></img>
           <div class="p-6">
             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
-            <p class="leading-relaxed mb-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Brass Craftcss</h1>
+            <p class="leading-relaxed mb-3">Brass craft was patronized by the Mughals and the British. Artisans from several Indian states use the ancient metal casting technique of Dokra. </p>
             <div class="flex items-center flex-wrap ">
               <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                 <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
