@@ -20,18 +20,18 @@ vs-code
 
 **MOTIVATION:**
  
-"*" To compete and gain experience in a hackathon.
-"*" To learn new skill sets.
-"*" To provide a platform for Indian artisans to showcase their handicrafts in worldwide market.
+* To compete and gain experience in a hackathon.
+* To learn new skill sets.
+* To provide a platform for Indian artisans to showcase their handicrafts in worldwide market.
  
 **DIFFICULTIES FACED:**
 
-"*"  We framed this website using a language we had less experience in.
-"*"  Version mismatch error while connecting back-end to Front-end.
+*  We framed this website using a language we had less experience in.
+*  Version mismatch error while connecting back-end to Front-end.
   
  **KEY FEATURES OF THIS WEBSITE:**
 
- "*" Multilinguistic website
- "*" Stock Prediction
- "*" Contact-us Form
- "*" Description about  various Handicrafts.
+ * Multilinguistic website
+ * Stock Prediction
+ * Contact-us Form
+ * Description about  various Handicrafts.
