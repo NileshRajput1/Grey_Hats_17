@@ -34,4 +34,4 @@ vs-code
  * Multilinguistic website
  * Stock Prediction
  * Contact-us Form
- * Description about  various Handicrafts.
+ * Description about  various Handicrafts. 
