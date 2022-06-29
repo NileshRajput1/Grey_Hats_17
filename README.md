@@ -11,8 +11,8 @@ To globalise the Indian handicraft industry? Providing a shared platform for the
 
 **TECHNOLOGY USED:**
 
-"*" react js
-"*" Tailwind css
+* react js
+* Tailwind css
 
 **PLATFORM:**
 
